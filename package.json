@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "mssql": "^6.3.1",
+    "tedious": "^11.0.4"
+  },
+  "name": "liveu",
+  "version": "1.0.0",
+  "description": "Connect to db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

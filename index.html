@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Prova Live University</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<h1 class ="titulo">Prova Live University</h1>
+			</div>
+		</header>
+
+        <section class="container">
+		    <h2 id="titulo-form">Inserção de Dados</h2>
+		    <ul id="mensagens-erro"></ul>
+		    <form id="form-enviar">
+		        <div class="grupo">
+		            <label for="nome">Nome:</label>
+		            <input id="nome" name="nome" type="text" placeholder="Digite seu nome:" class="campo">
+		        </div>
+		        <div class="grupo">
+		            <label for="sobrenome">Sobrenome:</label>
+		            <input id="sobrenome" name="sobrenome" type="text" placeholder="Digite seu sobrenome:" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="email">E-mail:</label>
+		            <input id="email" name="email" type="email" placeholder="Digite seu E-mail:" class="campo campo-medio">
+		        </div>
+
+		        <button id="enviar" class="botao bto-principal">Enviar</button>
+
+				<p id="resposta"></p>
+				
+		    </form>
+		</section>
+        <script src="js/post.js"></script>
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+    </body>
+</html>
+
